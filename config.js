@@ -4,7 +4,7 @@ require('dotenv').config();
 const DB_USER = process.env.DB_USERNAME;
 const DB_PW = process.env.DB_PASSWORD;
 
-let DB_URI = `postgresql://${DB_USER}:${DB_PASSWORD}@localhost`;
+let DB_URI = `postgresql://${DB_USER}:${DB_PW}@localhost`;
 
 if (process.env.NODE_ENV === "test") {
   DB_URI = `${DB_URI}/books_test`;
