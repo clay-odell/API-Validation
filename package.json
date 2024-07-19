@@ -1,0 +1,24 @@
+{
+  "name": "bookstore-solution",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "error-stack-parser": "^2.1.4",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "jsonschema": "^1.4.1",
+    "locus": "^2.0.4",
+    "parse-stack": "^0.1.4",
+    "pg": "^8.12.0",
+    "superagent": "^9.0.2",
+    "supertest": "^7.0.0"
+  },
+  "description": ""
+}
